@@ -37,5 +37,6 @@ cl = NaiveBayesClassifier(train)
 print "It took "+str(time.time()-a)+" seconds to train data"
 print 'data trained, now checking accuracy:'
 accuracy = cl.accuracy(test)
-print cl.classify("You must grow up. You are an adult now")
 print "accuracy: "+str(accuracy)
+print cl.classify("Hey bud, what's up") #ham
+print cl.classify("Get a brand new mobile phone by being an agent of The Mob! Plus loads more goodies! For more info just text MAT to 87021") #spam
