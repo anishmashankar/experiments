@@ -1,3 +1,13 @@
+'''
+Author: Anish Mashankar
+This was practically my first go at Machine Learning. I loved the idea
+of sentiment analysis when first hearing about it on a Coursera course
+called Web Intelligence and Big Data(https://www.coursera.org/course/bigdata).
+Thought I would give it a try with NLTK library.
+pip install nltk
+'''
+
+
 import random
 from nltk.corpus import movie_reviews
 from text.classifiers import NaiveBayesClassifier
